@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 200px;
+    height: 400px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.container > img{
+    width: 100%;
+}
+.container div>img{
+    display: inline-block;
+    position: relative;
+    width: 15%;
+}
+.container h1,p{
+    text-align: center;
+}
+.info{
+    position: absolute;
+    display: inline-block;
+}
+
+.blue-button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.Change{
+    border-radius: 5px;
+    background-color: rgb(192, 192, 192);
+    font-size: 12px;
+    display: inline;
+}
+.cancel-button{
+
+}
