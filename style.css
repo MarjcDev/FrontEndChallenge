@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
 }
 body{
     background-image: url(/images/pattern-background-desktop.svg);
     
+}
+h1,p{
+font-size: 80%;
 }
 section{
     width: 100%;
@@ -14,44 +17,66 @@ section{
     justify-content: center;
 }
 .container{
-    width: 200px;
-    height: 400px;
+    margin-top: 1rem;
+    width: 300px;
+    height: 98%;
     background: white;
     border-radius: 5px;
     overflow: hidden;
-
 }
 
 .container > img{
     width: 100%;
 }
-.container div>img{
-    display: inline-block;
-    position: relative;
-    width: 15%;
-}
 .container h1,p{
     text-align: center;
+    margin: .5rem;
 }
 .info{
     position: absolute;
-    display: inline-block;
+}
+.container .container-info > img{
+    margin: 1rem 1rem;
+    position: relative;
+    width: 15%;
+}
+.container-info .info{
+margin-top:1rem;
+display: inline;
 }
 
-.blue-button{
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    font-size: 12px;
-
+h5,h6{
+position: relative;
 }
 .Change{
-    border-radius: 5px;
-    background-color: rgb(192, 192, 192);
-    font-size: 12px;
+    background-color: transparent;
+    border: none;
+}
+.container-info > .Change{
+    position: relative;
+    margin-top: 1rem;
     display: inline;
-}
-.cancel-button{
+    float: right;
+    } 
+    button:hover{
+        cursor: pointer;
+    }
 
+button{
+    margin: .5rem;
 }
+
+.blue-button, .cancel-button{
+
+    margin-left: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    display: block;
+}
+.blue-button{
+    background-color: blue;
+    color: white;
+}
+
+
